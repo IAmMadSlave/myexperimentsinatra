@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyExperiment</title>
+	<link rel="stylesheet" href="/css/custom.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header class="navbar navbar-fixed-top navbar-inverse">
+		<div class="navbar-inner">
+		<div class="container">
+			<a href="" id="logo">MyExperiment</a>
+		</div>
+		</div>
+	</header>
+
+	<div class ="center jumbotron col-md-12">
+		<h1>Welcome to MyExperiment</h1>
+		<form action="/signin" method="post" >
+			<input type='hidden' name='openid_identifier' size=30 value='https://portal.geni.net/server/server.php'/>
+			<br>
+			<button type="submit" value="Signin" class= "btn btn-large btn-primary" >Sign In</button>
+		</form>
+	</div>
+	<br><br><br>
+	
+	<center>
+		<a href='http://rubyonrails.org/'><img src="/images/rails.png" alt= "Rails" class="tech-img"/></a>
+		<a href='http://www.nsf.gov/'><img src="/images/nsf_logo.png" alt= "National Science Foundation"/></a>
+
+		<a href='https://github.com/netsym/primogeni'><img src="images/image2.png" class="tech-img" alt= "Sling" /></a>
+		<a href='http://www.geni.net/'><img src="images/geni-logo-final.gif" class="tech-img" alt="geni"/></a>
+	</center>
+	
+	<footer class="footer col-md-12">
+	    <small>
+		<a href="http://www.primessf.net">Modeling & Networking Systems Research Group</a>
+	    </small>
+	    <nav>
+		<ul>
+		    <li><small><a href="/about">About</a></small></li>
+		    <li><small><a href="/contact">Contact</a></small></li>
+		</ul>
+	    </nav>
+	</footer>
+
+</body>
+</html>

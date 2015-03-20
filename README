@@ -1,0 +1,70 @@
+$ gem install bundler
+$ bundle install
+$ rackup
+
+visit http://localhost:9292
+mahme012/Onlyas1thdealsinabsolutes
+
+https://portal.geni.net/eds/?entityID=https%3A%2F%2Fpanther.gpolab.bbn.com%2Fshibboleth&return=https%3A%2F%2Fportal.geni.net%2FShibboleth.sso%2FLogin%3FSAMLDS%3D1%26target%3Dss%253Amem%253Af0848c50b3b3055c150f84955d9e039a7b7c05c0
+
+
+
+
+
+models:
+FNSS Simple, FNSS Datacenter, Brite, Inet, and RocketFuel
+
+Types:
+FNSS Simple has Ring, Line, Star 
+Ex:model name(FNSS Simple),type(Ring),date(as per creation date),n(integer),tags(given by user)
+Ex:model name(FNSS Simple),type(Ring),date(as per creation date),n(integer),tags(given by user)
+Ex:model name(FNSS Simple),type(Ring),date(as per creation date),n(integer),tags(given by user)
+ FNSS Simple
+ Ring,
+ Line, 
+ Star, 
+ Full Mesh,
+ K-ary Tree,
+ Dumbbell
+
+
+FNSS Datacenter
+types:
+Two Tier
+Three Tier
+Bcube
+Fat Tree
+
+> - Generate FNSS Simple
+> - Ring
+> - n = number of nodes (int)
+> - Line
+> - n = number of nodes (int)
+> - Star
+> - n = number of leaf nodes (int)
+> - Full Mesh
+> - n = number of nodes (int)
+> - K-ary Tree
+> - k = branching factor of tree (int)
+> - h = height of tree (int)
+> - Dumbbell
+> - m1 = number of nodes in each bell (int)
+> - m2 = number of nodes in the path (int)
+> - Generate FNSS Datacenter
+> - Two Tier
+> - n_core = number of core switches (int)
+> - n_edge = number of edge switches (int)
+> - h_hosts = number of host connected to each edge switch (int)
+> - Three Tier
+> - n_core = number of core switches (int)
+> - n_aggregation = number of aggregation switches (int)
+> - n_edges = number of edge switches per each aggregations
+> switch (int)
+> - n_hosts = number of hosts connected to each edge switch
+> (int)
+> - Bcube
+> - k = level of Bcube (int)
+> - n number of hosts per Bcube (int)
+> - Fat Tree
+> - k = number of ports on the switch (int)
+
